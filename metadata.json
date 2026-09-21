@@ -1,0 +1,8 @@
+{
+  "name": "Flight Schedule",
+  "description": "A Skyscanner Backpack React flight booking schedule interface allowing travelers to select travel dates and progress through the flight booking flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

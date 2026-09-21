@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Skyscanner Relative";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://js.skyscnr.com/sttc/bpk-fonts/SkyscannerRelative-Book-f9356ad6.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skyscanner Relative";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://js.skyscnr.com/sttc/bpk-fonts/SkyscannerRelative-Medium-c08dc28b.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skyscanner Relative";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://js.skyscnr.com/sttc/bpk-fonts/SkyscannerRelative-Bold-8545937e.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skyscanner Relative";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://js.skyscnr.com/sttc/bpk-fonts/SkyscannerRelative-Black-bb3c9434.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --font-family-backpack: "Skyscanner Relative", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --bpk-color-sky-blue: #0062e3;
+  --bpk-color-sky-blue-hover: #004ebd;
+  --bpk-color-sky-blue-tint: #e3f0ff;
+  --bpk-color-surface-contrast: #05203d;
+  --bpk-color-text-primary: #161616;
+  --bpk-color-text-secondary: #6e747e;
+  --bpk-color-line: #e6e9eb;
+  --bpk-color-mint: #0fa1a9;
+}
+
+body {
+  font-family: var(--font-family-backpack);
+  color: #161616;
+}
+
