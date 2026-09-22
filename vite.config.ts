@@ -17,7 +17,7 @@ export default defineConfig(() => {
       // Allow Cloudflare Tunnel to access the Vite development server
       host: true,
       port: 3000,
-      allowedHosts: ['according-which-brochure-twist.trycloudflare.com'],
+      allowedHosts: ['something-else.trycloudflare.com'],
 
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       hmr: process.env.DISABLE_HMR !== 'true',
