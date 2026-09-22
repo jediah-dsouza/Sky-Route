@@ -1,6 +1,6 @@
 # Sky-Route ✈️
 
-Sky-Route is a modern **Front-End Flight Booking Management System** built with React, TypeScript, Vite, and Tailwind CSS.
+Sky-Route is a **Modern Front-End Flight Booking Management System** built with React, TypeScript, Vite, and Tailwind CSS.
 
 The Web-Application provides a complete flight-booking workflow, allowing users to select a flight date and route, browse and filter available flights, enter passenger information, review their booking, complete a simulated payment process, and receive a booking confirmation with a digital e-ticket.
 
